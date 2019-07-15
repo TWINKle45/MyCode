@@ -1,0 +1,282 @@
+.body{
+  overflow: none;
+  font-family: 'Lato' sans-serif;
+}
+
+.navbar-custom{
+  background-image: linear-gradient(to right, #bc1010, #d60e0e);
+  position: relative;
+  font-size: 20px;
+}
+
+.sidemenu{
+  color: black;
+  height: 200px;
+  width: 200px;
+  /*margin-left: 60px;*/
+  margin-top: 100px;
+}
+
+nav div ul li a
+{
+  color: white;
+  word-spacing: 10px;
+}
+nav div ul li a:hover
+{
+  color: black;
+}
+
+
+/*SIDEMENU*/
+.h6txt{
+  font-weight: bold;
+  border-bottom: 0.5px solid;
+  border-color: lightgrey;
+  padding: 15px;
+}
+.textstyle{
+  color: grey;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+.fieldspace{
+  padding: 4px;
+}
+.btmspace{
+  margin-bottom: 40px;
+}
+.submitbtn{
+  background-image: linear-gradient(to bottom, #bc1020, #d60e0e);
+  color: white;
+  border-radius: 7px;
+  width: 65%;
+  margin: 30px;
+  font-weight: bold;
+  border-style: none;
+}
+.arrowstyle{
+  color: white;
+}
+
+/*MAIN HOME*/
+.rightsection{
+  float: right;
+  margin-top: 90px;
+}
+.h1text{
+  color: red;
+  /*font-size-adjust: 0.5px;*/
+  font-weight: lighter;
+  border-bottom: 1px solid;
+  margin-bottom: 25px;
+}
+.h5text{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.ptxt{
+  color: red;
+  font-weight: bold;
+  list-style: none;
+  margin-bottom: 15px;
+}
+.ptxt1{
+  color: grey;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.ptxt2{
+  color: grey;
+  list-style: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+  padding-bottom: 25px;
+}
+.list{
+  color: grey;
+}
+.listarrow{
+  color: red;
+}
+.video{
+  margin-bottom: 100px;
+/*  width: 50%;
+  height: auto;*/
+}
+
+/*FOOTER*/
+.bgfooter{
+  background-color: #827878;
+  width: 100%;
+  height: auto;
+}
+.listfooter1{
+  color: white;
+/*  display: -webkit-flex;
+  flex-wrap: wrap;*/
+  display: inline-flex;
+  margin: 40px;
+}
+
+
+.listfooter2{
+  color: white;
+/*  display: -webkit-flex;
+  flex-wrap: wrap;*/
+  display: inline-flex;
+  margin-right: -80px;
+  margin-top: 50px;
+}
+.listborder{
+  border-bottom: 1px dashed;
+  padding: 12px;
+}
+
+.vl{
+  border-left: 3px solid #a59a9a;
+  height: 30%;
+  position: absolute;
+  left: 35%;
+  margin-top: 40px;
+  top: 3;
+}
+.vl1{
+  border-left: 3px solid #a59a9a;
+  height: 30%;
+  position: absolute;
+  left: 65%;
+  margin-top: 40px;
+  /*margin-left: -4px;*/
+  top: 3;
+}
+.followus{
+  color: #a9abad;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.linkedin{
+  height: auto;
+  width: 45px;
+  margin-left: 65px;
+  margin-top: 8px;
+}
+.twitter{
+  height: auto;
+  width: 40px;
+  margin-left: 8px;
+  margin-top: 8px;"
+}
+.pinterest{
+  height: auto;
+  width: 50px;
+  margin-left: 4px;
+  margin-top: 8px;"
+}
+.fb{
+  height: auto;
+  width: 50px;
+  margin-left: 1px;
+  margin-top: 8px;
+}
+.footerimage{
+  height: auto;
+  width: 40%;
+  margin: 40px;
+  margin-top: 70px;
+}
+.footercopyright{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.bgcolor{
+  background-image: linear-gradient(to right, #bc1010, #d60e0e);
+  height: 40%;
+  width: 100%;
+  font-weight: bold;
+}
+/*.img{
+  margin-left: 80px;
+}
+
+.navbar-footer1{
+  height: 340px;
+  background-color: #827878;
+}
+
+.navbar-footer2{
+  margin-top: -25px;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to right, #bc1010, #d60e0e);
+  /*overflow: hidden;
+  color: white;
+  padding-top: 40px;
+}
+
+
+
+
+/*.section-margin{
+  margin-top: -210px;
+  margin-left: 400px;
+  margin-right: 150px;
+}
+
+
+
+.vl{
+  border-left: 3px solid #a59a9a;
+  height: 220px;
+  position: absolute;
+  left: 35%;
+  margin-top: 40px;
+  top: 3;
+}
+
+.footer-marginleft1{
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 20px
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+
+}
+
+
+.footer-marginleft2{
+  margin-left: 300px;
+  margin-bottom: 200px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+
+}
+
+.vl1{
+  border-left: 3px solid #a59a9a;
+  height: 220px;
+  position: relative;
+  margin-top: 40px;
+  margin-left: -4px;
+  top: 3;
+}
+
+.footer1-followus{
+  font-size: 20px;
+  padding-top: -200px;
+  
+}
+.footer
+{
+  background-color: #737277;
+}
+
+.hr1{
+  width: 70px; 
+  border-style: dashed;
+  border-top: 1px solid white;
+}
