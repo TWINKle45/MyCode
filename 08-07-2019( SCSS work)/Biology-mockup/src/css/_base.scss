@@ -1,0 +1,81 @@
+body {
+  font-family: "HeroicCondensed Medium";
+}
+
+/*.gridcontainer {*/
+/*  padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: 768px){
+        width: 750px;
+    }
+    @media (min-width: 992px){
+        width: 970px;
+    }
+    @media (min-width: 1200px){
+        width: 1170px;
+    }*/
+
+/*    @media (max-width: 1200px){
+      width: 1170px;
+    }
+    @media (max-width: 992px){
+      width: 970px;
+    }
+    @media (max-width: 768px){
+      width: 750px;
+    }
+
+}*/
+
+.container1{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: 576px){
+      max-width: 540px;
+    }
+    @media (min-width: 768px){
+      max-width: 750px;
+    }
+    @media (min-width: 992px){
+      max-width: 970px;
+    }
+    @media (min-width: 1200px){
+      max-width: 1170px;
+    }
+}
+
+.cust-row {
+    display: flex;
+    /*-ms-flex-wrap: wrap;*/
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+.cust-col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+}
+
+@media (min-width: 768px) {
+.cust-col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+}
+
+.borderfooter {
+  border-bottom: solid;
+  border-width: medium;
+  padding: 10px 0px;
+  /*width: 100%;*/
+  /*height: 2px;*/
+}

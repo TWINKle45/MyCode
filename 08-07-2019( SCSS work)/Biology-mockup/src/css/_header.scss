@@ -1,0 +1,112 @@
+/* --------------------------------------------------
+ Header Style
+-------------------------------------------------- */
+/*ul li h3 {
+  list-style: none;
+}*/
+
+.header {
+/*  position: fixed;*/
+/*  width: 100%;
+  height: auto;*/
+
+  .topheader {
+    background-color: $black;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+
+      .top-wrap {
+        display: inline-block;
+        color: $white;
+      
+            .headertoptext {
+              display: inline-block;
+              padding-top: 15px;
+              /*adding: 19px 5px 10px 50px;*/
+            }
+            .btnheader{
+              background-color: $white;
+              border-style: none;
+            }
+      }
+      .rightfloat {
+        display: inline-block;
+        float: right;
+        padding-top: 15px;
+        /*width: auto;*/
+      
+            .headerrightul {
+              display: inline-block;
+              color: $white;
+              width: 100%;
+              /*margin-right: 60px;*/
+            }
+            .headerrightli {
+              display: inline-block;
+              float: left;
+              text-decoration: none;
+              list-style: none;
+              /*padding: 19px 2px;*/
+            }
+            .rightlitxt1 {
+              list-style: none;
+              float: left;
+             /* margin-right: 19px;*/
+              /*padding-top: 15px;*/
+              /*text-align: center;*/
+            }
+            .rightlitxt2 {
+              display: inline-block;
+              float: left;
+              /*padding: 19px 0px 10px 10px;*/
+            }
+
+      }
+  }
+  
+  .bottomheader {
+    width: 100%;
+    height: auto;
+    background-color: $white;
+    list-style: none;
+    display: inline-block;
+    /*padding: 20px 40px;*/
+
+      .header2img{
+        float: left;
+      }
+
+      .header2lia {
+        color: $black;
+      }
+
+      .header2txt {
+        display: inline-block;
+        float: right;
+        /*margin-right: 20px;*/
+      }
+      .header2ul {
+        display: inline-block;
+      }
+      .header2li{
+        /*float: left;*/
+        display: inline-block;
+        padding: 20px;
+        float: left;
+        font-size: 30px;
+        color: $black;
+      }
+      .underline{
+        text-decoration: underline;
+      }
+    }
+
+
+}
+
+
+
+
+
+

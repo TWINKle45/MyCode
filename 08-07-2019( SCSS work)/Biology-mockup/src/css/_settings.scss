@@ -1,0 +1,38 @@
+/* --------------------------------------------------
+	0.1 Settigns
+-------------------------------------------------- */
+
+
+
+/* ---- Colors ---- */
+$white: #FFF;
+$black: #000;
+$purple: #ffff2d;
+
+/* ---- Text ---- */
+
+// Font Family
+$body-font:/* "Axiforma", Helvetica, Arial, sans-serif*/ heroiccondensed medium;
+$heading-font: /*'Open Sans', 'Helvetica Neue', Helvetica, sans-serif*/ hroiccondensed medium;
+$alt-heading-font: /*"Pensum", serif*/ heroicccondensed medium;
+$alt-heading-font1: /*'Fira Sans', 'Helvetica Neue', Helvetica, sans-serif*/ heroiccondensed medium;
+
+
+/* ---- White Space and widths---- */
+$ws-xs: 50px;
+$ws-s: 65px;
+$ws-m: 100px;
+$ws-l: 160px;
+
+
+/* ---- Other ---- */
+$hr-color: #CCC;
+$name: 'animate';
+
+/* ---- Media Queries Breakpoints ---- */
+$screen-xs: 600px;
+$screen-sm: 770px;
+$screen-md: 992px;
+$screen-lg: 1260px;
+$screen-xlg: 1440px;
+

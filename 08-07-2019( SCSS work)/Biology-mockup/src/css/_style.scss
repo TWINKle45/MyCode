@@ -1,0 +1,294 @@
+/* --------------------------------------------------
+  Style
+-------------------------------------------------- */
+
+/*IMAGE*/
+  /*  .h1onimg{
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+  }
+  .imageslider {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .shopbtn {
+    background-color: $white;
+    border-style: none;
+    font-size: 25px;
+    position: relative;
+    float: right;
+    margin-top: -70px;
+    margin-right: 60px;
+  }*/
+.imgwrapper {
+
+  .banner {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    .banner-img {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 2.5s;
+    }
+
+/*      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }*/
+
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+
+    .header-banner {
+      position: absolute;
+      top: 5%;
+      left: 13%;
+      font-weight: bold;
+      color: $white;
+    }
+    .banner-btn {
+      
+      font-size: 20px;
+      position: absolute;
+      right: 13%;
+      bottom: 5%;
+    }
+    .shopbtn {
+      background-color: $white;
+      border-style: none;
+    }
+  }
+}
+
+/*NATURAL*/
+.below-banner{
+  background-color: $white;
+  width: 100%;
+  height: auto;
+      .naturalwrapper {
+         margin: 20px 0px;
+          .naturalp {
+      /*     margin: 20px 50px;
+           vertical-align: center;*/
+           font-size: 20px;
+          }
+      }
+}
+
+/*PEOPLE*/
+.below-ppl {
+  background-color: $black;
+  width: 100%;
+  height: auto;
+      .pplwrapper {
+        padding: 20px 0px;
+      
+      .cardsrow{
+        display: flex;
+      }
+      .pplimg1 {
+          width: 30rem;
+          margin: 10px 0px 14px;
+          padding: 20px;
+          left: 0;
+          right: 0;
+
+/*          .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+          }*/
+
+          .imgsize{
+            height: auto;
+            width: 100%;
+            padding-bottom: 35px;
+            text-indent: left;
+          }
+
+          .ppltxt{
+            text-align: left;
+          }
+      }
+  }
+}
+
+/*DISCOVER*/
+.below-discover {
+  background-color: $black;
+  width: 100%;
+  height: auto;
+
+    .discwrapper {
+      /*padding: 20px 0px;*/
+      display: inline-block;
+      width: 100%;
+      padding: 10px 0px 60px 0px;
+
+        .section-header{
+          display: inline-block;
+          width: 100%;
+          height: auto;
+        }
+
+        .discimgsize {
+            height: auto;
+            width: 100%;
+        }
+        .discgrid {
+          float: left;
+          display: inline-block;
+          width: calc(33.33% - 40px/3);
+          margin-right: 20px;
+
+          &:last-child {
+          margin-right: 0px;
+          }
+        }
+         
+    }
+}
+
+/*INSTAGRAM*/
+
+.insta {
+  background-color: $white;
+  width: 100%;
+  height: auto;
+      .instawrapper {
+        padding: 0px 0px;
+      
+            .instarow{
+                display: flex;
+                width: 100%;
+
+            }
+            .instaimg1 {
+                width: 15rem;
+                margin: 10px 0px 14px;
+                padding: 20px;
+                left: 0;
+                right: 0;
+
+                  .insta-imgsize {
+                  height: auto;
+                  width: 100%;
+                  padding-bottom: 35px;
+                  text-indent: left;
+                }
+            }
+         #scroller {
+        position: relative;
+        }
+        .scrollerwidth {
+                width: 1100px;
+                height: 400px;
+                // margin: 0 ;
+        }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+      
+  }
+}
+
+
+/*.below-insta{
+  background-color: $white;
+  width: 100%;
+  height: auto;
+
+      .instawrapper{
+        padding: 20px 0px;*/
+
+/*            .instarow{
+              display: flex;
+            }*/
+/*            .instaimg1{
+              display: inline-block;
+              width: 20rem;
+              margin: 10px 0 14px 0;
+              padding: 30px;
+              left: 0;
+              right: 0;
+            }
+            .instaimgsize{
+              height: auto;
+              width: 100%;
+              padding-bottom: 35px;
+              /*text-indent: left;
+            }*/
+/*          }
+}*/
+
+/*BLOG*/
+.belowBlog {
+  width: 100%;
+  height: auto;
+  background-color: $white;
+  margin-bottom: 40px;
+
+/*    .blogwrapper{
+        display: inline-block;
+        width: 100%;
+        padding: 10px 0px 20px 0px;*/
+
+          .alignSection {
+              display: inline-block;
+              width: 100%;
+
+              .AlignBlog{
+                    display: inline-block;
+            width: 49%;
+            height: auto;
+            /*width: 30rem;*/
+            /*margin: 10px 0 14px 0;*/
+            padding: 0px 20px 0px 0px;
+
+                .blogText{
+                  text-align: left;
+                  width: 100%;
+                }
+                .imagesectionBlog{
+                  width: 100%;
+                }
+              }
+          }
+    
+}
